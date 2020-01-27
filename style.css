@@ -16,11 +16,6 @@ outline: 0 !important;
 font-family: sans-serif;   
  overflow:  hidden;
 }
- /* @font-face {
-font-family: 'Gilroy'; 
-src: url(Gilroy-Regular.ttf); 
-} */
- 
 @font-face {
 font-family: 'Gilroy';
 src: url('font/Gilroy-Regular.eot');
@@ -30,6 +25,15 @@ url('font/Gilroy-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
+@font-face {
+font-family: 'SFUIDisplay';
+src: url('font/SFUIDisplay-Regular.eot');
+src: url('font/SFUIDisplay-Regularr.eot?#iefix') format('embedded-opentype'),
+url('font/SFUIDisplay-Regular.woff') format('woff'),
+url('font/SFUIDisplay-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+    }
 li{
 list-style-type: none;
 }
@@ -54,7 +58,7 @@ letter-spacing: 1px;
 }
 
 h1{
-    font-family: 'Gilroy';
+    font-family: 'SFUIDisplay';
     color: red;
     font-size: 24px;
 }
