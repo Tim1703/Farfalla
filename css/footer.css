@@ -30,14 +30,14 @@ footer{
     justify-content: space-between;
 }
 .upBlock{
-  height: 70px;
+    height: 60px;
     width: 100%;
 }
 .downBlockFooter{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 280px;
+    height: 290px;
    
 }
 .SizeOfFooterLogo{
@@ -49,7 +49,14 @@ height: 35px;
     font-family: 'SFUIDisplay';
     color: #000;
 }
-
+.quoteText{
+    font-size: 16px;
+    font-family: 'SFUIDisplay';
+    color: #F0682E;
+}
+.underquote{
+    padding-top: 25px;
+}
 .greyFooter{
     font-family: 'SFUIDisplay';
     color: #4E4E4E;
@@ -63,3 +70,18 @@ height: 35px;
     color: #000;
 }
 .HeadOfBlockNameFooter:hover{color: #F0682E;}
+
+@media only screen and (max-width:1024px){
+    .blockFooter2,.blockFooter3,.blockFooter4{ 
+      display: none;
+    }}
+    @media only screen and (max-width:1024px){
+        .blockFooter1{ 
+         height: 200px;
+         text-align: center;
+        }}
+        @media only screen and (max-width:1024px){
+            .downBlockFooter{ 
+            justify-content: space-between;
+            flex-direction: row;
+            }}
