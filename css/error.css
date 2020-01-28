@@ -33,18 +33,18 @@ html {
         }
     .wrap{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         margin: 0 auto;
-        width: 700px;
+        border: 1px solid black;
+        width: 50%;
     }
     .error_logo{
+        margin-top: 80px;
         display: flex;
         justify-content: center;
-        margin: 50px auto 0;
-        width: 130px;
+        width: 30%;
     }
     .error_logo_img{
         width: 100%;
@@ -55,15 +55,14 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 626px;
-        height: 380px;
+        border: 1px solid black;
         margin-bottom: 30px; 
     }
     .block_error-404_img{
         width: 100%;
         height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
+        /* background-position: center;
+        background-repeat: no-repeat; */
     }
     .block_error-404_subtext{
         display: flex;
@@ -96,15 +95,20 @@ html {
         font-size: 20px;
         font-weight: bold;
     }
-    @media screen (min-width:426px) and (max-width: 767px) {
+    @media screen and (min-width:320px) and (max-width: 768px) {
         .wrap{
-            width: 320px;
+            min-width: 320px;
             border: 1px solid black;
             margin: 0 auto;
-        }
+        }   
         .error_logo{
+            width: 50%;
+        }
+        .block_error-page{
             width: 320px;
-            margin-left: 100px;
+        }
+        .block_error-page_text{
+            font-size: 20px;
         }
 
     }
