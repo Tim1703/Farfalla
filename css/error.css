@@ -37,7 +37,7 @@ html {
         align-items: center;
         flex-direction: column;
         margin: 0 auto;
-        border: 1px solid black;
+      
         width: 50%;
     }
     .error_logo{
@@ -55,7 +55,7 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid black;
+       
         margin-bottom: 30px; 
     }
     .block_error-404_img{
@@ -89,7 +89,7 @@ html {
     .error-button_main-page{
         width: 282px;
         height: 73px;
-        border: 1px solid black;
+        
         background-color: #fff;
         font-family: 'Gilroy',sans-serif;
         font-size: 20px;
@@ -98,7 +98,6 @@ html {
     @media screen and (min-width:320px) and (max-width: 768px) {
         .wrap{
             min-width: 320px;
-            border: 1px solid black;
             margin: 0 auto;
         }   
         .error_logo{
