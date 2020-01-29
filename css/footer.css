@@ -1,0 +1,88 @@
+a{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.containerForBlocks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.blockFooter1,.blockFooter2,.blockFooter3,.blockFooter4{
+
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7;
+    justify-content: space-between;
+}
+.blockFooter2,.blockFooter3,.blockFooter4{
+ 
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    justify-content: space-between;
+}
+.upBlock{
+    height: 60px;
+    width: 100%;
+}
+.downBlockFooter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 290px;
+   
+}
+.SizeOfFooterLogo{
+width: 128px;
+height: 35px;
+}
+.styleOfTtx{
+    font-size: 16px;
+    font-family: 'SFUIDisplay';
+    color: #000;
+}
+.quoteText{
+    font-size: 16px;
+    font-family: 'SFUIDisplay';
+    color: #F0682E;
+}
+.underquote{
+    padding-top: 25px;
+}
+.greyFooter{
+    font-family: 'SFUIDisplay';
+    color: #4E4E4E;
+}
+.greyFooter:hover{color: #000;}
+
+.HeadOfBlockNameFooter{
+    font-family: 'SFUIDisplay';
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000;
+}
+.HeadOfBlockNameFooter:hover{color: #F0682E;}
+
+@media only screen and (max-width:1024px){
+    .blockFooter2,.blockFooter3,.blockFooter4{ 
+      display: none;
+    }}
+    @media only screen and (max-width:1024px){
+        .blockFooter1{ 
+         height: 150px;
+         text-align: center;
+        }}
+        @media only screen and (max-width:1024px){
+            .downBlockFooter{ 
+            justify-content: space-between;
+            flex-direction: row;
+            height: 60px;
+            }}
