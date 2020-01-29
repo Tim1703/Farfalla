@@ -77,11 +77,12 @@ height: 35px;
     }}
     @media only screen and (max-width:1024px){
         .blockFooter1{ 
-         height: 200px;
+         height: 150px;
          text-align: center;
         }}
         @media only screen and (max-width:1024px){
             .downBlockFooter{ 
             justify-content: space-between;
             flex-direction: row;
+            height: 60px;
             }}
