@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0 !important;
+    }
+    body,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0 !important;
+    font-family: sans-serif;   
+    overflow:  hidden;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('font/Gilroy-Regular.eot');
+    src: url('font/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/Gilroy-Regular.woff') format('woff'),
+    url('font/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'SFUIDisplay';
+    src: url('font/SFUIDisplay-Regular.eot');
+    src: url('font/SFUIDisplay-Regularr.eot?#iefix') format('embedded-opentype'),
+    url('font/SFUIDisplay-Regular.woff') format('woff'),
+    url('font/SFUIDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+        }
+    .wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .error_logo{
+        margin-top: 80px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .error_logo_img{
+        width: 100%;
+        height: 100%;
+    }
+    .block_error-404{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .block_error-404_text-404{ 
+        font-size: 325px;
+        font-weight: bold;
+        letter-spacing: 40px;
+        color: #707070;
+        opacity: 0.1;
+    }
+    .block_error-404_subtext{
+        display: flex;
+        font-family: 'Gilroy',sans-serif;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .block_error-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .block_error-page_text{
+        font-family: 'SF UI Display',sans-serif;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    .block_error-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .error-button_main-page{
+        cursor: pointer;
+        display: block;
+        width: 282px;
+        height: 73px;
+        border: 1px solid black;
+        background-color: #fff;
+        font-family: 'Gilroy',sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        transition: all .25s ease-in;
+    }
+    .error-button_main-page:hover{
+        background-position: 0 0;
+        transition: all .25s ease-in;
+        color:white;
+        background: #000;
+    }
+    @media screen and (min-width:320px) and (max-width: 765px) {
+        .wrap{
+            min-width: 320px;
+            margin: 0 auto;
+        }
+        .error_logo{
+            width: 60%;
+        }
+        .block_error-page{
+            width: 320px;
+        }
+        .block_error-404_text-404{
+            width: 300px;
+            font-size: 120px;
+            margin-left: 20px;
+        }
+        .block_error-page_text{
+            font-size: 20px;
+        }
+
+    }
+    @media screen and (max-width:1440px){
+        .error_logo{
+            margin-top: 30px;
+        }
+        .block_error-page{
+            margin-bottom: 30px;
+        }
+    }
