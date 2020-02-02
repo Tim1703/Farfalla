@@ -53,7 +53,7 @@ a {
 .header {
     width: 100%;
     max-width: 1920px;
-    padding: 60px 0;
+    padding: 3% 9%;
     background-color: #16161C;
     font-size: 20px;
     letter-spacing: 1px;
@@ -66,10 +66,11 @@ a {
 .header_logo {
     width: 136px;
     height: 38px;
-    margin-left: 215px;
-    margin-right: 125px;
 }
 
+.header_nav_menu{
+    margin-left: 135px;
+}
 .header_nav_menu>ul{
     display: flex;
     flex-direction: row;
@@ -138,38 +139,70 @@ a {
 
 @media only screen and (min-width : 1530px) and (max-width : 1919px) {
     .header{
-        padding: 50px 0;
+        padding: 2.5% 7%;
+        font-size: 18px;
     }
     .header_logo {
-        margin-left: 135px;
-        margin-right: 105px;
+        width: 126px;
+        height: 35px;
+    }
+    
+    .header_nav_menu{
+        margin-left: 115px;
     }
     .block_contact{
-        margin-left: 170px;
-    }
-}
-
-@media only screen and (min-width : 1200px) and (max-width : 1529px) {
-    .header{
-        padding: 30px 0;
-        font-size: 16px;
-    }
-    .header_logo {
-        width: 116px;
-        height: 32px;
-        margin-left: 45px;
-        margin-right: 65px;
-    }
-    .block_contact{
-        margin-left: 100px;
-    }
-    .block_contact>a{
-        margin-right: 25px;
+        margin-left: 150px;
     }
     .block_contact_button{
         font-size: 14px;
         width: 222px;
         height: 45px;
+    }
+}
+@media only screen and (min-width : 1440px) and (max-width : 1529px){
+    .header{
+        padding: 2.5% 5%;
+        font-size: 17px;
+    }
+    .header_logo {
+        width: 126px;
+        height: 35px;
+    }
+    
+    .header_nav_menu{
+        margin-left: 115px;
+    }
+    .block_contact{
+        margin-left: 150px;
+    }
+    .block_contact_button{
+        font-size: 14px;
+        width: 222px;
+        height: 45px;
+    }
+}
+@media only screen and (min-width : 1200px) and (max-width : 1439px) {
+    .header{
+        padding: 2.5% 4%;
+        font-size: 15px;
+    }
+    .header_logo {
+        width: 116px;
+        height: 32px;
+    }
+    .header_nav_menu{
+        margin-left: 75px;
+    }
+    .block_contact{
+        margin-left: 80px;
+    }
+    .block_contact>a{
+        margin-right: 25px;
+    }
+    .block_contact_button{
+        font-size: 12px;
+        width: 208px;
+        height: 38px;
     }
 
 }
