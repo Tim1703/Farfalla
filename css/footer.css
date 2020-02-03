@@ -1,6 +1,7 @@
 a{
     cursor: pointer;
 }
+<<<<<<< Updated upstream
 
 
 
@@ -9,6 +10,48 @@ a{
 
 
 
+=======
+.fffff{
+        color: #fff;
+}
+
+.containerUpTheFooter{
+
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: #16161C;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.blockLeftUnderFooter{
+    width: 60%;
+    height: 100%;
+}
+
+.blockRightUnderFooter{
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+}
+
+
+.line_title_page{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 94px;
+    height: 1px;
+    background: #2D3037;
+  }
+  .title_page{
+    font-family: "Gilroy",sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+>>>>>>> Stashed changes
 
 
 
