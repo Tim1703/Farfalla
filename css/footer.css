@@ -1,24 +1,15 @@
 a{
     cursor: pointer;
 }
-<<<<<<< Updated upstream
-
-
-
-
-
-
-
-
-=======
 .fffff{
-        color: #fff;
+  color: #fff;
 }
 
 .containerUpTheFooter{
 
     margin-top: 50px;
     width: 100%;
+    max-width: 1920px;
     height: 400px;
     background-color: #16161C;
     display: flex;
@@ -29,29 +20,51 @@ a{
 .blockLeftUnderFooter{
     width: 60%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .blockRightUnderFooter{
     width: 40%;
     height: 100%;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
-
+.marginDel{
+    margin-left: 0px !important;
+}
 
 .line_title_page{
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
     align-items: center;
-    width: 94px;
+    width: 50px;
     height: 1px;
-    background: #2D3037;
+    background-color: #fff;
+    border-radius: 50px;
+    color: #fff;
   }
+.test {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+  .line_title_page-container {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
   .title_page{
     font-family: "Gilroy",sans-serif;
     font-size: 18px;
     color: #fff;
   }
->>>>>>> Stashed changes
 
 
 
