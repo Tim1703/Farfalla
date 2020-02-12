@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.line_title_page-container_project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    /* margin: 170px 0 170px 80px; */
+    text-align: left;
+    color: black;
+  }
+  .line_title_page{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 94px;
+    height: 1px;
+    background: #2D3037;
+  }
+  .title_page{
+    font-family: "Gilroy",sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #2E313A;
+  }
+  .project_container{
+      margin-top: 140px;
+      margin-bottom: 130px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  .project_text_block{
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+  }
+    .project_text_block_title{
+        font-size: 65px;
+        margin-bottom: 60px;
+    }
+    .project_text_block_subtext{
+        font-size: 20px;
+    }
+    .project_button{
+    margin-top: 10px;
+     width: 280px;
+    height: 66px;
+    background: #F0682E;
+    display: flex; 
+       justify-content: center;
+    align-items: center;
+  }
+  .project_button:hover{
+      cursor: pointer;
+  }
+
+  .project_button_text{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .project_our_works{
+      max-width: 1500px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-bottom: 140px;
+  }
+  .project_our_works_block{
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      width: 499px;
+      height: 514px;
+      background-image: url(/img/Ntu.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border: 1px solid #ffffff;
+      
+  }
+  .project_our_works_block-title{
+      margin-top: 220px;
+      margin-bottom: 60px;
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+      color: #ffffff;
+  }
+  .project_our_works_block-button{
+      display: none;
+  }
+  .project_our_works_block:hover .project_our_works_block-button{
+      display: flex;
+      justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      width: 280px;
+      height: 66px;
+      background: #F0682E;
+      cursor: pointer;
+  }
+  .project_our_works_block-text{
+      font-size: 16px;
+      color: #ffffff;
+      text-transform: uppercase;
+  }
+  .project_our_clients{
+      max-width: 1400px;
+      margin: 150px auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .our_clients_block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 210px;
+      height: 207px;
+      border: 1px solid rgb(163, 161, 161, 0.2);
+  }
+  .our_clients_block:hover{
+     cursor: pointer;
+  }
+  .answer_for_question{
+      width: 100%;
+      height: 585px;
+      background: #16161C
+}
+  .line_title_page-container_answer_for_question{
+      padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    /* margin: 170px 0 170px 80px; */
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .line_title_page_answer_for_question{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 94px;
+    height: 1px;
+    background: #ffffff;
+  }
+  .title_page_answer_for_question{
+    font-family: "Gilroy",sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .answer_for_question_container{
+    margin-top: 140px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.answer_for_question_text_block{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+  .answer_for_question_text_block_title{
+      font-size: 65px;
+      color: #ffffff;
+      margin-bottom: 60px;
+  }
+  .answer_for_question_text_block_subtext{
+      font-size: 20px;
+      color: #ffffff;
+
+  }
+  .answer_for_question_button{
+  margin-top: 10px;
+   width: 280px;
+  height: 66px;
+  background: #F0682E;
+  display: flex; 
+     justify-content: center;
+  align-items: center;
+}
+.panswer_for_question_button:hover{
+    cursor: pointer;
+}
+
+.answer_for_question_button_text{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
