@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.line_title_page-container_project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    /* margin: 170px 0 170px 80px; */
+    text-align: left;
+    color: black;
+  }
+  .line_title_page{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 94px;
+    height: 1px;
+    background: #2D3037;
+  }
+  .title_page{
+    font-family: "Gilroy",sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #2E313A;
+  }
+  .project_container{
+      margin-top: 140px;
+      margin-bottom: 130px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  .project_text_block{
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+  }
+    .project_text_block_title{
+        font-size: 65px;
+        margin-bottom: 60px;
+    }
+    .project_text_block_subtext{
+        font-size: 20px;
+    }
+    .project_button{
+    margin-top: 10px;
+     width: 280px;
+    height: 66px;
+    background: #F0682E;
+    display: flex; 
+       justify-content: center;
+    align-items: center;
+  }
+  .project_button:hover{
+      cursor: pointer;
+  }
+
+  .project_button_text{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .project_our_works{
+      max-width: 1500px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-bottom: 140px;
+  }
+  .project_our_works_block{
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      width: 499px;
+      height: 514px;
+      background-image: url(/img/Ntu.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border: 1px solid #ffffff;
+      
+  }
+  .project_our_works_block-title{
+      margin-top: 220px;
+      margin-bottom: 60px;
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+      color: #ffffff;
+  }
+  .project_our_works_block-button{
+      display: none;
+  }
+  .project_our_works_block:hover .project_our_works_block-button{
+      display: flex;
+      justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      width: 280px;
+      height: 66px;
+      background: #F0682E;
+      cursor: pointer;
+  }
+  .project_our_works_block-text{
+      font-size: 16px;
+      color: #ffffff;
+      text-transform: uppercase;
+  }
+  .project_our_clients{
+      max-width: 1400px;
+      margin: 150px auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .our_clients_block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 210px;
+      height: 207px;
+      border: 1px solid rgb(163, 161, 161, 0.2);
+  }
+  .our_clients_block:hover{
+     cursor: pointer;
+  }
+  .answer_for_question{
+      width: 100%;
+      height: 585px;
+      background: #16161C
+}
+  .line_title_page-container_answer_for_question{
+      padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    /* margin: 170px 0 170px 80px; */
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .line_title_page_answer_for_question{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 94px;
+    height: 1px;
+    background: #ffffff;
+  }
+  .title_page_answer_for_question{
+    font-family: "Gilroy",sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .answer_for_question_container{
+    margin-top: 140px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.answer_for_question_text_block{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+  .answer_for_question_text_block_title{
+      font-size: 65px;
+      color: #ffffff;
+      margin-bottom: 60px;
+  }
+  .answer_for_question_text_block_subtext{
+      font-size: 20px;
+      color: #ffffff;
+
+  }
+  .answer_for_question_button{
+  margin-top: 10px;
+   width: 280px;
+  height: 66px;
+  background: #F0682E;
+  display: flex; 
+     justify-content: center;
+  align-items: center;
+}
+.panswer_for_question_button:hover{
+    cursor: pointer;
+}
+
+.answer_for_question_button_text{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #941515;
+}
+
+
+.inner-block_scroll {
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .inner-block_scroll:hover .icon-arrow {
+    background: #F0682E;
+  }
+  .inner-block_scroll:hover .icon-arrow::after{
+  border-left: 6px solid #F0682E;
+  }
+  .inner-block_scroll:hover .inner-block_scroll-text{
+    color: #F0682E;
+
+  }
+  
+  .arrow-wrap {
+    width: 100px;
+    height: auto;
+    transition: all 0.2s;
+  }
+  
+  .arrow-wrap:hover {
+    transform: translateY(-50px);
+    cursor: pointer; 
+  }
+  .icon-arrow {
+    position: relative;
+    transform: rotate(-90deg);
+    display: block;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    max-width: 130px;
+    height: 2px;
+    background: #707070;
+  }
+  .icon-arrow::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid black;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .inner-block_scroll-text {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 150px;
+    left: 13px;
+    letter-spacing: 2 ;
+    font-size: 14px;
+    z-index: 999;
+    font-weight: 900;
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+  }
+  
