@@ -47,10 +47,22 @@ a {
     text-decoration: none;
     color: #FFFFFF;
     outline: none;
+    padding: 0 15px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+a:hover, 
+a:focus{
+    color: #F0682E;
 }
 
 
-.header {
+
+header {
     width: 100%;
     max-width: 1920px;
     padding: 3% 9%;
@@ -60,7 +72,28 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
 
+.switcher{
+    position: absolute;
+    visibility: hidden;
+    left: -9999px;
+}
+
+label{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+ul{
+    display: flex;
+}
+.fa-bars{
+    color:#fff;
+}
+.fa-times{
+    color:#fff;
 }
 
 .header_logo {
@@ -95,29 +128,6 @@ a {
 
 .header_nav_menu ul li a:focus {
     color: #FF8855;
-}
-
-.header_nav_submenu {
-    display: none;
-    position: absolute;
-    flex-direction: column;
-    background-color: #16161C;
-    padding: 15px;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.8px;
-}
-
-.header_nav_menu-1:hover .header_nav_submenu-1 {
-    display: flex;
-}
-
-.header_nav_menu-2:hover .header_nav_submenu-2 {
-    display: flex;
-}
-
-.header_nav_menu-3:hover .header_nav_submenu-3 {
-    display: flex;
 }
 
 .block_contact {
@@ -229,7 +239,38 @@ a {
 
 }
 
-@media only screen and (min-width : 1024px) and (max-width : 1199px) {}
+@media only screen and (min-width : 1024px) and (max-width : 1199px) {
+    .open,
+    .close{
+        display: block;
+    }
+    .close{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+    .switcher:checked ~ nav {
+        left: 0;
+    }
+    nav{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: #29292D;
+        left: 100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0;
+    }
+    ul{
+        flex-direction: column;
+    }
+
+    .block_contact a span{
+        display: none;
+    }
+}
+
 
 @media only screen and (min-width : 768px) and (max-width : 1023px) {}
 
