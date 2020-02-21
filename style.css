@@ -246,7 +246,7 @@ a {
 
     .nav {
         /*  ширна произвольная, не стесняйтесь экспериментировать */
-        width: 320px;
+        width: 500px;
         min-width: 320px;
         /* фиксируем и выставляем высоту панели на максимум */
         height: 100%;
@@ -255,7 +255,7 @@ a {
         bottom: 0;
         margin: 0;
         /* сдвигаем (прячем) панель относительно левого края страницы */
-        left: -320px;
+        left: -500px;
         /* внутренние отступы */
         padding: 15px 20px;
         /* плавный переход смещения панели */
@@ -263,40 +263,21 @@ a {
         -moz-transition: left 0.3s;
         transition: left 0.3s;
         /* определяем цвет фона панели */
-        background: #16a085;
+        background-color: #29292D;
         /* поверх других элементов */
         z-index: 2000;
     }
 
-
-    /**
-     * Кнопка переключения панели
-     * тег <label>
-     */
-
     .nav-toggle {
-        /* абсолютно позиционируем */
         position: absolute;
-        /* относительно левого края панели */
-        left: 320px;
-        /* отступ от верхнего края панели */
+        left: 500px;
         top: 1em;
-        /* внутренние отступы */
         padding: 0.5em;
-        /* определяем цвет фона переключателя
-         * чаще вчего в соответствии с цветом фона панели
-        */
-        background: inherit;
-        /* цвет текста */
-        color: #dadada;
-        /* вид курсора */
+        color: #fff;
         cursor: pointer;
-        /* размер шрифта */
         font-size: 1.2em;
         line-height: 1;
-        /* всегда поверх других элементов страницы */
         z-index: 2001;
-        /* анимируем цвет текста при наведении */
         -webkit-transition: color .25s ease-in-out;
         -moz-transition: color .25s ease-in-out;
         transition: color .25s ease-in-out;
@@ -366,16 +347,18 @@ a {
     */
 
     [id='nav-toggle']:checked~section {
-        -webkit-transform: translateX(320px);
-        -moz-transform: translateX(320px);
-        transform: translateX(320px);
+        -webkit-transform: translateX(500px);
+        -moz-transform: translateX(500px);
+        transform: translateX(500px);
         transition: transform 0.5s linear;
         -webkit-transition: transform 0.5s linear;
         -moz-transition: transform 0.5s linear;
         -ms-transition: transform 0.5s linear;
         -o-transition: transform 0.5s linear;
-    }
-    
+        -ms-transform: translateX(500px);
+        -o-transform: translateX(500px);
+}
+
     [id='nav-toggle']:checked~.nav>.nav-toggle:after {
         content: '\2715';
     }
@@ -404,10 +387,6 @@ a {
         }
     }
 
-
-    /**
-     * Формируем стиль заголовка (логотип) панели 
-    */
 
     .nav h2 {
         width: 90%;
