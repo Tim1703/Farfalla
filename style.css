@@ -154,6 +154,9 @@ ul{
     background-color: #F0682E;
     text-transform: uppercase;
 }
+.nav_header_line{
+    display: none;
+}
 
 
 @media only screen and (min-width : 1530px) and (max-width : 1919px) {
@@ -246,7 +249,7 @@ ul{
     }
     .close{
         position: absolute;
-        top: 40px;
+        top: 50px;
         left: 40px;
     }
     .switcher:checked ~ nav {
@@ -260,7 +263,20 @@ ul{
         left: 100%;
         top: 0;
         text-align: center;
-        padding: 100px 0;
+        padding: 126px 0;
+    }
+    .nav_header_image-logo{
+        position: absolute;
+        top: 50px;
+        left: 35%;
+    }
+    .nav_header_logo{
+        width: 112px;
+        height: 32px;
+    }
+    .nav_header_line{
+        display: block;
+        border-bottom: 1px solid #fff;
     }
     ul{
         flex-direction: column;
@@ -269,6 +285,7 @@ ul{
     .block_contact a span{
         display: none;
     }
+
 }
 
 
