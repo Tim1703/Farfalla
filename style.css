@@ -553,7 +553,7 @@ a {
         bottom: 0;
         height: 1px;
         width: 100%;
-        background: #3bc1a0;
+        background: #fff;
         -webkit-transition: width .5s ease;
         transition: width .5s ease;
     }
