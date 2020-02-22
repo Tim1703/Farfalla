@@ -145,7 +145,6 @@ a {
     text-transform: uppercase;
 }
 
-
 .nav {
     display: none;
     flex-direction: column;
@@ -576,6 +575,64 @@ section{
     }
 }
 
-@media only screen and (min-width : 480px) and (max-width : 639px) {}
+@media only screen and (min-width : 480px) and (max-width : 639px) {
+    .header{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    .header_logo{
+        width: 86px;
+        height: 24px;
+    }
+    .block_contact{
+        margin: 0;
+        display: none;
+    }
+    .block_contact_button{
+        width: 180px;
+        height: 50px;
+        font-size: 11px;
+    }
+    .header_nav_menu {
+        display: none;
+    }
+    .to_hide-only_number {
+        display: none;
+    }
+    .nav {
+        display: flex;
+    }
+    .nav-toggle>span{
+        top: 25px;
+    }
+    .nav h2{
+        font-size: 18px;
+        letter-spacing: 1.8px;
+        line-height: 29px;
+        margin: 0;
+    }
+    .fa-times{
+        top: 14.5px;
+    }
+    .accordion .link{
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        line-height: 19px;
+        padding: 20px 20px 20px 40px;
+    }
+    .submenu a{
+        font-size: 12px;
+        padding-left: 65px;
+    }
+    .nav_socials a{
+        font-size: 15px;
+        letter-spacing: 4px;
+        line-height: 20px;
+        padding: 0 45px;
+    }
+}
 
 @media only screen and (min-width : 320px) and (max-width : 479px) {}
