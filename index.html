@@ -20,10 +20,12 @@
 
     <input type="checkbox" id="nav-toggle" hidden>
     <nav class="nav">
-        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <label for="nav-toggle" class="nav-toggle" onclick>
+            <span></span>
+            <i class="fas fa-times"></i>
+        </label>
         <h2 class="logo">farfalla</h2>
         <div class="white_lane"></div>
-
         <ul id="accordion" class="accordion">
             <li><div class="link"><a href="#">Главная</a></div></li>
             <li>
@@ -102,7 +104,7 @@
                 </ul>
             </nav>
             <div class="block_contact">
-                <a href="#"><span>097-843-21-01</span></a>
+                <a href="#" class="to_hide-only_number"><span>097-843-21-01</span></a>
                 <a href="#">
                     <div class="block_contact_button">связаться с нами</div>
                 </a>
