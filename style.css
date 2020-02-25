@@ -605,6 +605,36 @@ section {
         width: 222px;
         height: 45px;
     }
+
+    /*Styles for about_us PAGE */
+
+    .title_big{
+        font-size: 180px;
+    }
+    .title_big-1{
+        left: 80px;
+    }
+    .title_big-2{
+        right: 60px;
+    }
+    .forward_element_image {
+        width: 530px;
+        height: 535px;
+        box-shadow: 90px 90px 0px -36px rgba(42, 42, 42, 1);
+    }
+    .right_column_text {
+        margin-left: 190px;
+    }
+    .right_column_text-label{
+        width: 103%;
+    }
+    .right_column_text-description{
+        width: 92%;
+    }
+    .top_label-1{
+        width: 56%;
+    }
+    /*END Styles for about_us PAGE */
 }
 
 @media only screen and (min-width : 1440px) and (max-width : 1529px) {
@@ -631,6 +661,70 @@ section {
         width: 222px;
         height: 45px;
     }
+
+    /*Styles for about_us PAGE */
+    .title_big{
+        font-size: 160px;
+    }
+    .title_big-1{
+        left: 80px;
+    }
+    .title_big-2{
+        right: 60px;
+    }
+    .text_title {
+        width: 44%;
+        font-size: 61px;
+    }
+    .text_description{
+        font-size: 19px;
+    }
+    .youtube{
+        right: 75px;
+    }
+    .youtube_label{
+        font-size: 19px;
+    }
+    .forward_element_image {
+        width: 480px;
+        height: 485px;
+        box-shadow: 80px 80px 0px -36px rgba(42, 42, 42, 1);
+    }
+    .right_column_text {
+        margin-left: 190px;
+    }
+    .right_column_text-label{
+        width: 101%;
+        font-size: 61px;
+    }
+    .right_column_text-description{
+        width: 92%;
+        font-size: 19px;
+    }
+    .top_label{
+        font-size: 61px;
+    }
+    .text_for_top_label{
+        font-size: 19px;
+    }
+    .number_title{
+        font-size: 22px;
+    }
+    .number_decription{
+        font-size: 19px;
+    }
+    .line{
+        width: 35px;
+        margin-left: 25px;
+    }
+    .top_label-1{
+        width: 56%;
+        font-size: 61px;
+    }
+    .text_for_top_label-1{
+        font-size: 19px;
+    }
+    /*END Styles for about_us PAGE */
 }
 
 @media only screen and (min-width : 1200px) and (max-width : 1439px) {
@@ -662,6 +756,77 @@ section {
         height: 38px;
     }
 
+
+    /*Styles for about_us PAGE */
+    .title_big{
+        display: none;
+    }
+    .container{
+        max-width: 975px;
+    }
+    .first_block {
+        padding: 100px 0 0;
+    }
+    .text_title {
+        width: 52%;
+        font-size: 55px;
+    }
+    .text_description{
+        width: 63%;
+        font-size: 18px;
+    }
+    .youtube{
+        right: 50px;
+        top: 370px;
+    }
+    .youtube_label{
+        font-size: 18px;
+    }
+    .forward_element_image {
+        width: 400px;
+        height: 405px;
+        box-shadow: 70px 70px 0px -36px rgba(42, 42, 42, 1);
+    }
+    .right_column_text {
+        margin-left: 130px;
+    }
+    .right_column_text-label{
+        width: 102%;
+        font-size: 55px;
+    }
+    .right_column_text-description{
+        width: 91%;
+        font-size: 18px;
+    }
+    .top_label{
+        font-size: 55px;
+    }
+    .text_for_top_label{
+        font-size: 18px;
+        width: 73%;
+    }
+    .number_title{
+        font-size: 20px;
+    }
+    .number_decription{
+        font-size: 18px;
+    }
+    .line{
+        width: 30px;
+        margin-left: 25px;
+    }
+    .top_label-1{
+        width: 62%;
+        font-size: 55px;
+    }
+    .text_for_top_label-1{
+        width: 64%;
+        font-size: 18px;
+    }
+    .close-btn{
+        right: 2%!important;
+    }
+    /*END Styles for about_us PAGE */
 }
 
 @media only screen and (min-width : 1024px) and (max-width : 1199px) {
@@ -706,6 +871,79 @@ section {
         -o-transform: translateX(350px);
         transform: translateX(350px);
     }
+
+    
+    /*Styles for about_us PAGE */
+    .title_big{
+        display: none;
+    }
+    .container{
+        max-width: 975px;
+    }
+    .first_block {
+        padding: 100px 0 0;
+    }
+    .text_title {
+        width: 52%;
+        font-size: 55px;
+    }
+    .text_description{
+        width: 63%;
+        font-size: 18px;
+    }
+    .youtube{
+        right: 50px;
+        top: 370px;
+    }
+    .youtube_label{
+        font-size: 18px;
+    }
+    .forward_element_image {
+        width: 400px;
+        height: 405px;
+        box-shadow: 70px 70px 0px -36px rgba(42, 42, 42, 1);
+    }
+    .right_column_text {
+        margin-left: 130px;
+    }
+    .right_column_text-label{
+        width: 102%;
+        font-size: 55px;
+    }
+    .right_column_text-description{
+        width: 91%;
+        font-size: 18px;
+    }
+    .top_label{
+        font-size: 55px;
+    }
+    .text_for_top_label{
+        font-size: 18px;
+        width: 73%;
+    }
+    .number_title{
+        font-size: 20px;
+    }
+    .number_decription{
+        font-size: 18px;
+    }
+    .line{
+        width: 30px;
+        margin-left: 25px;
+    }
+    .top_label-1{
+        width: 62%;
+        font-size: 55px;
+    }
+    .text_for_top_label-1{
+        width: 64%;
+        font-size: 18px;
+    }
+    .close-btn{
+        right: 2%!important;
+    }
+    /*END Styles for about_us PAGE */
+
 }
 
 @media only screen and (min-width : 768px) and (max-width : 1023px) {
@@ -780,6 +1018,11 @@ section {
         -o-transform: translateX(350px);
         transform: translateX(350px);
     }
+
+
+    /*Styles for about_us PAGE */
+
+    /*END Styles for about_us PAGE */
 }
 
 @media only screen and (min-width : 640px) and (max-width : 767px) {
@@ -854,6 +1097,11 @@ section {
         -o-transform: translateX(350px);
         transform: translateX(350px);
     }
+
+
+    /*Styles for about_us PAGE */
+
+    /*END Styles for about_us PAGE */
 }
 
 @media only screen and (min-width : 480px) and (max-width : 639px) {
@@ -936,6 +1184,11 @@ section {
         -o-transform: translateX(350px);
         transform: translateX(350px);
     }
+
+
+    /*Styles for about_us PAGE */
+
+    /*END Styles for about_us PAGE */
 }
 
 @media only screen and (min-width : 320px) and (max-width : 479px) {
@@ -1043,4 +1296,9 @@ section {
         padding: 0 38.3px;
         height: 40px;
     }
+
+
+    /*Styles for about_us PAGE */
+
+    /*END Styles for about_us PAGE */
 }
