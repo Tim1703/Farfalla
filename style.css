@@ -395,7 +395,7 @@ section {
 }
 
 .first_block {
-    padding: 440px 0 0;
+    padding: 470px 0 0;
 }
 
 .text_title {
@@ -417,7 +417,7 @@ section {
 
 .youtube {
     position: absolute;
-    top: 590px;
+    top: 720px;
     right: 225px;
     cursor: pointer;
 }
@@ -462,7 +462,7 @@ section {
 }
 
 .right_column_text-label {
-    width: 66%;
+    width: 76%;
     font-size: 65px;
     font-weight: 800;
     line-height: 70px;
@@ -484,7 +484,7 @@ section {
 }
 
 .top_label {
-    width: 40%;
+    width: 46%;
     font-size: 65px;
     font-weight: 800;
     line-height: 70px;
