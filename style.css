@@ -366,6 +366,7 @@ section {
     line-height: 20px;
 }
 
+
 /*Styles for about_us PAGE */
 
 .title_big {
@@ -605,6 +606,12 @@ section {
         width: 222px;
         height: 45px;
     }
+
+    /*Styles for about_us PAGE */
+
+    
+
+    /*END Styles for about_us PAGE */
 }
 
 @media only screen and (min-width : 1440px) and (max-width : 1529px) {
