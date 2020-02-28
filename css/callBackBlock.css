@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+}
+
+.callBackBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 1066px; */
+    height: 128px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #76767629;
+}
+
+.callBackText {
+    color: #161616;
+}
+
+.callBackText hr {
+    width: 70px;
+    border: 1px solid #F0682E;
+    margin-left: 60px;
+}
+
+.tel {
+    width: 250px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.callBackButton {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    background-color: #F0682E;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width : 1530px) and (max-width : 1919px) {}
+
+@media only screen and (min-width : 1440px) and (max-width : 1529px) {}
+
+@media only screen and (min-width : 1200px) and (max-width : 1439px) {}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px) {}
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {}
+
+@media only screen and (min-width : 640px) and (max-width : 767px) {
+    .callBackBlock {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 767px;
+        height: 200px;
+    }
+
+    .callBackText hr {
+        width: 60px;
+        border: 1px solid #F0682E;
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 639px) {
+    .callBackBlock {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 639px;
+        height: 200px;
+    }
+
+    .callBackText hr {
+        width: 60px;
+        border: 1px solid #F0682E;
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+    .callBackBlock {
+        max-width: 479px;
+        height: 200px;
+    }
+
+    .callBackText hr {
+        width: 60px;
+        border: 1px solid #F0682E;
+        margin-left: 70px;
+    }
+}
